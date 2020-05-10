@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project-ng-week';
+
+  useLocalStore() {
+    window.localStorage.setItem('save', 'test');
+  }
 }
