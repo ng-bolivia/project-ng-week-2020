@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import * as moment from 'moment';
 
 import { Community } from '../models/community.model';
 import { COMMUNITIES } from './communities';
@@ -9,9 +9,7 @@ import { COMMUNITIES } from './communities';
 })
 export class DataService {
 
-  constructor(
-    private http: HttpClient
-  ) { }
+  constructor() { }
 
   getListA(limit: number = 50) {
     return this.generateCommunities(limit);
@@ -26,6 +24,11 @@ export class DataService {
     return COMMUNITIES[index];
   }
 
+  generateDate() {
+    const days = this.getRandomInt(0, 1000);
+    return moment().subtract(days, 'days').toISOString();
+  }
+
   getRandomInt(min: number, max: number) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
@@ -34,7 +37,7 @@ export class DataService {
     return {
       name: newName ? newName : this.generateName(),
       members: this.getRandomInt(100, 500),
-      created_at: new Date().toISOString(),
+      created_at: this.generateDate(),
     };
   }
 
