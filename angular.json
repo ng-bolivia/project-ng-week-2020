@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "project-ng-week"
+    }
+  },
+  "defaultProject": "project-ng-week",
+  "cli": {
+    "analytics": "3be20260-d5c1-4281-93a5-bc41fdcbf727"
+  }
 }

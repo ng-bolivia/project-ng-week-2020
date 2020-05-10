@@ -1,0 +1,19 @@
+<h1>List</h1>
+<section>
+  <aside>
+    <app-communities-list
+      title="List A"
+      [data]="listA"
+      (add)="add(listA, $event)"
+      (remove)="remove(listA, $event)"
+    ></app-communities-list>
+  </aside>
+  <aside>
+    <app-communities-list
+      title="List B"
+      [data]="listB"
+      (add)="add(listB, $event)"
+      (remove)="remove(listB, $event)"
+    ></app-communities-list>
+  </aside>
+</section>

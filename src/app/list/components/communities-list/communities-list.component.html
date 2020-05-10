@@ -1,0 +1,30 @@
+<h3>{{ title }}</h3>
+<input
+  type="search"
+  placeholder="Type name"
+  [formControl]="nameInput"
+  (keydown.enter)="handleEnter()"
+/>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Members</th>
+      <th>Created At</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let community of data">
+    <td>{{ community.name }}</td>
+    <td>
+      <b
+        >{{ community.members }}
+        <sup>{{ calcMembers(community.members) }}</sup></b
+      >
+    </td>
+    <td>{{ community.created_at | dateFormat }}</td>
+    <td>
+      <button>Remove</button>
+    </td>
+  </tr>
+</table>
