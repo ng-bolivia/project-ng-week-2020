@@ -34,11 +34,11 @@ export class CommunitiesListComponent implements OnInit {
 
   calcMembers(members: number) {
     console.log(this.title);
-    if (members < 300) {
+    if (members < 5) {
       return 'low';
-    } else if (members >= 300 && members <= 400) {
+    } else if (members >= 5 && members <= 7) {
       return 'medium';
-    } else if (members > 400) {
+    } else if (members > 7) {
       return 'hight';
     }
   }

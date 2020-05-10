@@ -36,7 +36,7 @@ export class DataService {
   generateCommunity(newName?: string): Community {
     return {
       name: newName ? newName : this.generateName(),
-      members: this.getRandomInt(100, 500),
+      members: this.getRandomInt(1, 10),
       created_at: this.generateDate(),
     };
   }

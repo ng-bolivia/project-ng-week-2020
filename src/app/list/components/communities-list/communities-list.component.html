@@ -14,17 +14,19 @@
       <th>Actions</th>
     </tr>
   </thead>
-  <tr *ngFor="let community of data">
-    <td>{{ community.name }}</td>
-    <td>
-      <b
-        >{{ community.members }}
-        <sup>{{ calcMembers(community.members) }}</sup></b
-      >
-    </td>
-    <td>{{ community.created_at | dateFormat }}</td>
-    <td>
-      <button (click)="onRemove(community)">Remove</button>
-    </td>
-  </tr>
+  <tbody>
+    <tr *ngFor="let community of data">
+      <td>{{ community.name }}</td>
+      <td>
+        <b
+          >{{ community.members }}
+          <sup>{{ calcMembers(community.members) }}</sup></b
+        >
+      </td>
+      <td>{{ community.created_at | dateFormat }}</td>
+      <td>
+        <button (click)="onRemove(community)">Remove</button>
+      </td>
+    </tr>
+  </tbody>
 </table>

@@ -390,9 +390,10 @@ table {
   border-spacing: 0;
   display: inline-block;
   max-width: 100%;
-  overflow-x: auto;
   padding: 0;
   white-space: nowrap;
+  height: 600px;
+  overflow-x: hidden;
 }
 
 table td,
