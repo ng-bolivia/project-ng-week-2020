@@ -10,6 +10,8 @@ import { ListComponent } from './list/list.component';
 import { ContactComponent } from './contact/contact.component';
 import { CommunitiesListComponent } from './list/components/communities-list/communities-list.component';
 import { DateFormatPipe } from './list/pipes/date-format.pipe';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { DateFormatPipe } from './list/pipes/date-format.pipe';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
