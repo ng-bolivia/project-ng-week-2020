@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "analyze-bundle": "ng build --prod --stats-json && webpack-bundle-analyzer dist/project-ng-week/stats-es2015.json"
   },
   "private": true,
   "dependencies": {
