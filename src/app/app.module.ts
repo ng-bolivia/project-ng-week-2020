@@ -10,6 +10,7 @@ import { ListComponent } from './list/list.component';
 import { ContactComponent } from './contact/contact.component';
 import { CommunitiesListComponent } from './list/components/communities-list/communities-list.component';
 import { DateFormatPipe } from './list/pipes/date-format.pipe';
+import { CalculateMembersPipe } from './list/pipes/calculate-members.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DateFormatPipe } from './list/pipes/date-format.pipe';
     ListComponent,
     ContactComponent,
     CommunitiesListComponent,
-    DateFormatPipe
+    DateFormatPipe,
+    CalculateMembersPipe
   ],
   imports: [
     BrowserModule,
