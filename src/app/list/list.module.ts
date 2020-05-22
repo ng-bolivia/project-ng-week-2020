@@ -6,12 +6,14 @@ import { CommunitiesListComponent } from './components/communities-list/communit
 import { ListRoutingModule } from './list-routing.module';
 import { ListComponent } from './list.component';
 import { DateFormatPipe } from './pipes/date-format.pipe';
+import { CalculateMembersPipe } from './pipes/calculate-members.pipe';
 
 @NgModule({
   declarations: [
     CommunitiesListComponent,
     DateFormatPipe,
-    ListComponent
+    ListComponent,
+    CalculateMembersPipe
   ],
   imports: [
     CommonModule,

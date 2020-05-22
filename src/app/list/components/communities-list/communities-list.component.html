@@ -20,7 +20,7 @@
       <td>
         <b
           >{{ community.members }}
-          <sup>{{ calcMembers(community.members) }}</sup></b
+          <sup>{{ community.members | calculateMembers }}</sup></b
         >
       </td>
       <td>{{ community.created_at | dateFormat }}</td>
