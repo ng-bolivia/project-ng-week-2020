@@ -8,7 +8,7 @@ import { Community } from '../../../models/community.model';
   selector: 'app-communities-list',
   templateUrl: './communities-list.component.html',
   styleUrls: ['./communities-list.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CommunitiesListComponent implements OnInit {
 

@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "analyze-bundle": "ng build --prod --stats-json && webpack-bundle-analyzer dist/project-ng-week/stats-es2015.json"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
     "date-fns": "^2.13.0",
+    "lodash": "^4.17.15",
     "moment": "^2.25.3",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
