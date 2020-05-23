@@ -8,6 +8,7 @@ import { Community } from '../../../models/community.model';
   selector: 'app-communities-list',
   templateUrl: './communities-list.component.html',
   styleUrls: ['./communities-list.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CommunitiesListComponent implements OnInit {
 
@@ -31,16 +32,4 @@ export class CommunitiesListComponent implements OnInit {
   onRemove(item: Community) {
     this.remove.emit(item);
   }
-
-  calcMembers(members: number) {
-    console.log(this.title);
-    if (members < 5) {
-      return 'low';
-    } else if (members >= 5 && members <= 7) {
-      return 'medium';
-    } else if (members > 7) {
-      return 'hight';
-    }
-  }
-
 }
