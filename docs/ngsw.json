@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1590257286759,
+  "index": "/project-ng-week-2020/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/project-ng-week-2020/1-es2015.1e2857fccfdb7a44f33e.js",
+        "/project-ng-week-2020/1-es5.1e2857fccfdb7a44f33e.js",
+        "/project-ng-week-2020/6-es2015.20aff03a65e117a1551a.js",
+        "/project-ng-week-2020/6-es5.20aff03a65e117a1551a.js",
+        "/project-ng-week-2020/7-es2015.35a5f84b7c2206cf541c.js",
+        "/project-ng-week-2020/7-es5.35a5f84b7c2206cf541c.js",
+        "/project-ng-week-2020/8-es2015.bc55480f7cce5d8b065a.js",
+        "/project-ng-week-2020/8-es5.bc55480f7cce5d8b065a.js",
+        "/project-ng-week-2020/favicon.ico",
+        "/project-ng-week-2020/index.html",
+        "/project-ng-week-2020/main-es2015.e4e3663d185b4bb7d7bb.js",
+        "/project-ng-week-2020/main-es5.e4e3663d185b4bb7d7bb.js",
+        "/project-ng-week-2020/manifest.webmanifest",
+        "/project-ng-week-2020/polyfills-es2015.ae2ff135b6a0a9cb55e7.js",
+        "/project-ng-week-2020/polyfills-es5.736f2d9faec4ce67a92c.js",
+        "/project-ng-week-2020/runtime-es2015.b64d6ba42e4d106ea598.js",
+        "/project-ng-week-2020/runtime-es5.b64d6ba42e4d106ea598.js",
+        "/project-ng-week-2020/styles.d8fb8c1f85de3403aef7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/project-ng-week-2020/assets/icons/icon-128x128.png",
+        "/project-ng-week-2020/assets/icons/icon-144x144.png",
+        "/project-ng-week-2020/assets/icons/icon-152x152.png",
+        "/project-ng-week-2020/assets/icons/icon-192x192.png",
+        "/project-ng-week-2020/assets/icons/icon-384x384.png",
+        "/project-ng-week-2020/assets/icons/icon-512x512.png",
+        "/project-ng-week-2020/assets/icons/icon-72x72.png",
+        "/project-ng-week-2020/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/project-ng-week-2020/1-es2015.1e2857fccfdb7a44f33e.js": "262cdbed9bf99e010735cc3c01e69f776974d39f",
+    "/project-ng-week-2020/1-es5.1e2857fccfdb7a44f33e.js": "2d94ef53b352b3194e01e8f4ccd8cba8ab5dbaa3",
+    "/project-ng-week-2020/6-es2015.20aff03a65e117a1551a.js": "c997d324ef66cd83fbccfd42fc9dc1bc29d6f866",
+    "/project-ng-week-2020/6-es5.20aff03a65e117a1551a.js": "8839b2b9a7a43ef627ff16d5f908123b422ef0d3",
+    "/project-ng-week-2020/7-es2015.35a5f84b7c2206cf541c.js": "5ecab9ab304bdae916369750f59a1f73b5f175dd",
+    "/project-ng-week-2020/7-es5.35a5f84b7c2206cf541c.js": "00fccb676c35a8e6bfe7954be76853a38011c5de",
+    "/project-ng-week-2020/8-es2015.bc55480f7cce5d8b065a.js": "92d650d79c6407819d3cdc64a71a0b4e17841195",
+    "/project-ng-week-2020/8-es5.bc55480f7cce5d8b065a.js": "3dad962cd638b56b484f1d368d6cfd3c22f14a4c",
+    "/project-ng-week-2020/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/project-ng-week-2020/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/project-ng-week-2020/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/project-ng-week-2020/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/project-ng-week-2020/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/project-ng-week-2020/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/project-ng-week-2020/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/project-ng-week-2020/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/project-ng-week-2020/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/project-ng-week-2020/index.html": "f04b72999a8b3edd0ad8191154f1dc627858c2a4",
+    "/project-ng-week-2020/main-es2015.e4e3663d185b4bb7d7bb.js": "313e55a35bd706793b00063832af527dbb60e425",
+    "/project-ng-week-2020/main-es5.e4e3663d185b4bb7d7bb.js": "080bb0be995630d42c68c8a05ba84e911a3af5a4",
+    "/project-ng-week-2020/manifest.webmanifest": "8f0c37564c3f8094a53042ec6350031e3b5106ef",
+    "/project-ng-week-2020/polyfills-es2015.ae2ff135b6a0a9cb55e7.js": "15a133b6cbb459a66fcd2e75f6aa25782e5d79c4",
+    "/project-ng-week-2020/polyfills-es5.736f2d9faec4ce67a92c.js": "6fb9b275d5f1484215fde72ba3f10480fa9692a8",
+    "/project-ng-week-2020/runtime-es2015.b64d6ba42e4d106ea598.js": "70354e3bf3b5c80b156d52f44d20b6e81950dbad",
+    "/project-ng-week-2020/runtime-es5.b64d6ba42e4d106ea598.js": "9a1d0c88be9dafd7b1c7556d2a071c13e45547ac",
+    "/project-ng-week-2020/styles.d8fb8c1f85de3403aef7.css": "9cc8a3dd522a04f30e94be642133f1a3e0033f72"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
