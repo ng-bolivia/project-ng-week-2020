@@ -1,0 +1,11 @@
+.table-viewport {
+  border: 1px solid black;
+  width: 490px;
+  height: 590px;
+  /* height: 200px; */
+}
+
+.table-header {
+  min-width: 490px;
+  display: inline-table;
+}

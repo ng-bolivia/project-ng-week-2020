@@ -1,12 +1,11 @@
 <h1>List</h1>
 <section>
   <aside>
-    <app-communities-list
+    <app-communities-list-vscroll
       title="List A"
-      [data]="listA"
       (add)="add(listA, $event)"
       (remove)="remove(listA, $event)"
-    ></app-communities-list>
+    ></app-communities-list-vscroll>
   </aside>
   <aside>
     <app-communities-list
