@@ -24,7 +24,7 @@
     "@angular/service-worker": "~9.1.6",
     "date-fns": "^2.13.0",
     "lodash": "^4.17.15",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
